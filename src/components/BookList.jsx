@@ -1,12 +1,19 @@
+import PropTypes from 'prop-types';
 import React from "react";
 
-function BookList(props) {
+ function BookList({booksStorage,setSelectedBook}) {
 
-    const res = props.booksList.items?.map(el => {
+    const res = booksStorage?.map(el => {
         return (
-          <div className="Card" key={el.id}>
+          <div className="Card" onClick={() => setSelectedBook(el)} key={el.etag}>
+            <img src= {el.volumeInfo.imageLinks?.smallThumbnail === null ? null : el.volumeInfo.imageLinks.smallThumbnail} alt={el.id} />
+            <div className="CardTextCategories">
+              <p>{el.volumeInfo.categories}</p>
+            </div>
             <p>{el.volumeInfo.title}</p>
-            <img src={el.volumeInfo.imageLinks?.smallThumbnail} alt={el.id} />
+            <div className="CardTextAuthors">
+            <p>{el.volumeInfo.authors}</p>
+            </div>
           </div>
         )
       })
@@ -19,3 +26,7 @@ function BookList(props) {
 }
 
 export default BookList;
+BookList.propTypes = {
+  booksStorage: PropTypes.object,
+  setSelectedBook: PropTypes.func
+}

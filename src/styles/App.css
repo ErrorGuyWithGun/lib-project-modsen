@@ -110,9 +110,9 @@ header {
 
 .result
 {
-    display: grid;
     font-family: 'Days One';
     font-style: normal;
+    display: grid;
     align-items: center;
     color: #ffffff;
 
@@ -121,28 +121,7 @@ header {
     grid-gap:20px;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    
-    
-}
-   
-.pagination {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #ffffff;
-    
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-        
-.pagination li {
-    margin: 0 20px;
-    
-}
+
     
 .totalItem
 {
@@ -153,4 +132,28 @@ nav {
    font-style: normal;
    font-weight: 400;
    font-size: 24px;
+}
+
+.Card {
+    width: 200px;
+}
+
+.CardTextCategories
+{
+    font-family: 'Chenla';
+    font-style: normal;
+    margin-bottom:10px;
+    text-decoration-line:underline;
+    color: rgb(202, 202, 202);
+
+}
+
+
+.CardTextAuthors
+{
+    font-family: 'Chenla';
+    font-style: normal;
+    margin-top: 10px;
+    color: rgb(223, 223, 223);  
+
 }

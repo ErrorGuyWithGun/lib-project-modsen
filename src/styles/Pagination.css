@@ -1,0 +1,32 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+#root{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+        
+.pagination button {
+    margin: 0 20px;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
