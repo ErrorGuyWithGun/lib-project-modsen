@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+#root{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalItem
+{
+    color: #ffffff;
+   margin-top: 20px;
+
+   font-family: 'Chenla';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+}

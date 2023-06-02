@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from "react";
+import '../styles/Header.css';
 
 function Header({fetchBooks,setTitle}) {
   return (

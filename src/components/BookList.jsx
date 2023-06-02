@@ -12,7 +12,9 @@ import skelet from '../assets/No.jpg'
             <div className="CardTextCategories">
               <p>{el.volumeInfo.categories}</p>
             </div>
+            <div className="bookTitle">
             <p>{el.volumeInfo.title}</p>
+            </div>
             <div className="CardTextAuthors">
             <p>{el.volumeInfo.authors}</p>
             </div>

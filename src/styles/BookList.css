@@ -9,6 +9,8 @@
     justify-content: space-between;
 }
 
+
+
 .card img
 {
     width: 10vw;
@@ -16,3 +18,118 @@
     margin-left: 2vw;
 }
 
+.CardTextCategories
+{
+    font-family: 'Chenla';
+    font-style: normal;
+    margin-bottom:10px;
+    text-decoration-line:underline;
+    color: rgb(202, 202, 202);
+    margin-left: 2vw;
+    
+
+}
+
+.bookTitle
+{
+    margin-left: 2vw;
+    width: 100px;
+    max-width: calc(30em * 0.5);
+   
+
+}
+
+.CardTextAuthors
+{
+    font-family: 'Chenla';
+    font-style: normal;
+    margin-top: 10px;
+    color: rgb(223, 223, 223);
+    margin-left: 2vw;
+    width: 100px;
+
+}
+
+@media screen and (min-width: 1200px){
+    .card
+{
+    height: 40vw;
+    background-color: rgba(50, 37, 37, 0.7);
+    border-radius: 10px;
+    
+}
+    .result
+{
+    font-family: 'Days One';
+    font-style: normal;
+    display: grid;
+    align-items: center;
+    color: #ffffff;
+
+    margin-top: 30px;
+    grid-template-columns: repeat(6,minmax(200px,0.5fr));
+    grid-gap:20px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+    .card
+{
+    height: 45vw;
+    background-color: rgba(50, 37, 37, 0.7);
+    border-radius: 10px;
+    
+}   
+    .result
+{
+
+    font-family: 'Days One';
+    font-style: normal;
+    display: grid;
+    align-items: center;
+    color: #ffffff;
+
+    margin-top: 30px;
+    grid-template-columns: repeat(5,minmax(200px,0.5fr));
+    grid-gap:20px;
+}
+}
+
+@media screen and (max-width: 1090px) {
+
+    .result
+    {
+        grid-template-columns: repeat(4,minmax(200px,0.5fr));
+
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .result
+    {
+        grid-template-columns: repeat(3,minmax(200px,0.5fr));
+
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .card
+    {
+        height: 70vw; 
+    }
+    .result
+    {
+
+        grid-template-columns: repeat(2,minmax(100px,0.5fr));
+
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .card
+    {
+        height: 90vw;
+
+    }
+}
