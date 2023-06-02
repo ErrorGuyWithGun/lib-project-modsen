@@ -30,6 +30,6 @@ return (
 }
 export default Selector;
 Selector.propTypes = {
-  fetchBooks: PropTypes.object,
+  fetchBooks: PropTypes.func,
   setFilter: PropTypes.func
 }
