@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lib-project-modsen/static/css/main.c72bda53.css",
-    "main.js": "/lib-project-modsen/static/js/main.b709a15b.js",
+    "main.js": "/lib-project-modsen/static/js/main.f1b8855c.js",
     "static/media/exempl2.jpg": "/lib-project-modsen/static/media/exempl2.e9c24c7326152f2bab35.jpg",
     "static/media/jpg": "/lib-project-modsen/static/media/936961960151f4513a6ffa6039883f72.8b2347c2cc2a1d8f731d.jpg",
     "static/media/No.jpg": "/lib-project-modsen/static/media/No.4d8eb363d513ba3c49dd.jpg",
     "index.html": "/lib-project-modsen/index.html",
     "main.c72bda53.css.map": "/lib-project-modsen/static/css/main.c72bda53.css.map",
-    "main.b709a15b.js.map": "/lib-project-modsen/static/js/main.b709a15b.js.map"
+    "main.f1b8855c.js.map": "/lib-project-modsen/static/js/main.f1b8855c.js.map"
   },
   "entrypoints": [
     "static/css/main.c72bda53.css",
-    "static/js/main.b709a15b.js"
+    "static/js/main.f1b8855c.js"
   ]
 }
