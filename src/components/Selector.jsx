@@ -8,11 +8,15 @@ function Selector({fetchBooks,setFilter})
         fetchBooks("0", value)
     }
 
+    function changeCategories(value)
+    {
+      setFilter(value);
+    }
    
 return (
     <div className="selectorSort">
     <label className="textInputCategories" htmlFor="site-search">Categories</label>
-    <select onChange={(v) => setFilter(v.target.value)} defaultValue={'All'} className="selectCategories">
+    <select onChange={(v) => changeCategories(v.target.value)} defaultValue={'All'} className="selectCategories">
       <option value="">All</option>
       <option value="art">art</option>
       <option value="biography">biography</option>

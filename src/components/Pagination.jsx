@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import '../styles/Pagination.css';
 
 function Pagination({fetchBooksLoading}) {
-    const [page, setPage] = useState(0);
+    const [page, setPage] = useState(30);
 
     const nextPage = () => {
         setPage(page + 30)
